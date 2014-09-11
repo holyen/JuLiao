@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E739FE219C1730B00CF6425 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E739FE119C1730B00CF6425 /* Foundation.framework */; };
+		9E739FE419C1730B00CF6425 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E739FE319C1730B00CF6425 /* CoreGraphics.framework */; };
+		9E739FE619C1730B00CF6425 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E739FE519C1730B00CF6425 /* UIKit.framework */; };
+		9E739FE819C1730B00CF6425 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E739FE719C1730B00CF6425 /* CoreData.framework */; };
+		9E739FEE19C1730B00CF6425 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9E739FEC19C1730B00CF6425 /* InfoPlist.strings */; };
+		9E739FF019C1730B00CF6425 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E739FEF19C1730B00CF6425 /* main.m */; };
+		9E739FF419C1730B00CF6425 /* JDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E739FF319C1730B00CF6425 /* JDAppDelegate.m */; };
+		9E739FF719C1730B00CF6425 /* JuLiao.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9E739FF519C1730B00CF6425 /* JuLiao.xcdatamodeld */; };
+		9E739FF919C1730B00CF6425 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E739FF819C1730B00CF6425 /* Images.xcassets */; };
+		9E73A00019C1730B00CF6425 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E739FFF19C1730B00CF6425 /* XCTest.framework */; };
+		9E73A00119C1730B00CF6425 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E739FE119C1730B00CF6425 /* Foundation.framework */; };
+		9E73A00219C1730B00CF6425 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E739FE519C1730B00CF6425 /* UIKit.framework */; };
+		9E73A00319C1730B00CF6425 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E739FE719C1730B00CF6425 /* CoreData.framework */; };
+		9E73A00B19C1730B00CF6425 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9E73A00919C1730B00CF6425 /* InfoPlist.strings */; };
+		9E73A00D19C1730B00CF6425 /* JuLiaoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E73A00C19C1730B00CF6425 /* JuLiaoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9E73A00419C1730B00CF6425 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E739FD619C1730B00CF6425 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E739FDD19C1730B00CF6425;
+			remoteInfo = JuLiao;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9E739FDE19C1730B00CF6425 /* JuLiao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JuLiao.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E739FE119C1730B00CF6425 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9E739FE319C1730B00CF6425 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9E739FE519C1730B00CF6425 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9E739FE719C1730B00CF6425 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		9E739FEB19C1730B00CF6425 /* JuLiao-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JuLiao-Info.plist"; sourceTree = "<group>"; };
+		9E739FED19C1730B00CF6425 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9E739FEF19C1730B00CF6425 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9E739FF119C1730B00CF6425 /* JuLiao-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JuLiao-Prefix.pch"; sourceTree = "<group>"; };
+		9E739FF219C1730B00CF6425 /* JDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDAppDelegate.h; sourceTree = "<group>"; };
+		9E739FF319C1730B00CF6425 /* JDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDAppDelegate.m; sourceTree = "<group>"; };
+		9E739FF619C1730B00CF6425 /* JuLiao.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JuLiao.xcdatamodel; sourceTree = "<group>"; };
+		9E739FF819C1730B00CF6425 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9E739FFE19C1730B00CF6425 /* JuLiaoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JuLiaoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E739FFF19C1730B00CF6425 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9E73A00819C1730B00CF6425 /* JuLiaoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JuLiaoTests-Info.plist"; sourceTree = "<group>"; };
+		9E73A00A19C1730B00CF6425 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9E73A00C19C1730B00CF6425 /* JuLiaoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JuLiaoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E739FDB19C1730B00CF6425 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E739FE419C1730B00CF6425 /* CoreGraphics.framework in Frameworks */,
+				9E739FE819C1730B00CF6425 /* CoreData.framework in Frameworks */,
+				9E739FE619C1730B00CF6425 /* UIKit.framework in Frameworks */,
+				9E739FE219C1730B00CF6425 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E739FFB19C1730B00CF6425 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E73A00019C1730B00CF6425 /* XCTest.framework in Frameworks */,
+				9E73A00319C1730B00CF6425 /* CoreData.framework in Frameworks */,
+				9E73A00219C1730B00CF6425 /* UIKit.framework in Frameworks */,
+				9E73A00119C1730B00CF6425 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9E739FD519C1730B00CF6425 = {
+			isa = PBXGroup;
+			children = (
+				9E739FE919C1730B00CF6425 /* JuLiao */,
+				9E73A00619C1730B00CF6425 /* JuLiaoTests */,
+				9E739FE019C1730B00CF6425 /* Frameworks */,
+				9E739FDF19C1730B00CF6425 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9E739FDF19C1730B00CF6425 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E739FDE19C1730B00CF6425 /* JuLiao.app */,
+				9E739FFE19C1730B00CF6425 /* JuLiaoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E739FE019C1730B00CF6425 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E739FE119C1730B00CF6425 /* Foundation.framework */,
+				9E739FE319C1730B00CF6425 /* CoreGraphics.framework */,
+				9E739FE519C1730B00CF6425 /* UIKit.framework */,
+				9E739FE719C1730B00CF6425 /* CoreData.framework */,
+				9E739FFF19C1730B00CF6425 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E739FE919C1730B00CF6425 /* JuLiao */ = {
+			isa = PBXGroup;
+			children = (
+				9E739FF219C1730B00CF6425 /* JDAppDelegate.h */,
+				9E739FF319C1730B00CF6425 /* JDAppDelegate.m */,
+				9E739FF819C1730B00CF6425 /* Images.xcassets */,
+				9E739FF519C1730B00CF6425 /* JuLiao.xcdatamodeld */,
+				9E739FEA19C1730B00CF6425 /* Supporting Files */,
+			);
+			path = JuLiao;
+			sourceTree = "<group>";
+		};
+		9E739FEA19C1730B00CF6425 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E739FEB19C1730B00CF6425 /* JuLiao-Info.plist */,
+				9E739FEC19C1730B00CF6425 /* InfoPlist.strings */,
+				9E739FEF19C1730B00CF6425 /* main.m */,
+				9E739FF119C1730B00CF6425 /* JuLiao-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9E73A00619C1730B00CF6425 /* JuLiaoTests */ = {
+			isa = PBXGroup;
+			children = (
+				9E73A00C19C1730B00CF6425 /* JuLiaoTests.m */,
+				9E73A00719C1730B00CF6425 /* Supporting Files */,
+			);
+			path = JuLiaoTests;
+			sourceTree = "<group>";
+		};
+		9E73A00719C1730B00CF6425 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E73A00819C1730B00CF6425 /* JuLiaoTests-Info.plist */,
+				9E73A00919C1730B00CF6425 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E739FDD19C1730B00CF6425 /* JuLiao */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E73A01019C1730B00CF6425 /* Build configuration list for PBXNativeTarget "JuLiao" */;
+			buildPhases = (
+				9E739FDA19C1730B00CF6425 /* Sources */,
+				9E739FDB19C1730B00CF6425 /* Frameworks */,
+				9E739FDC19C1730B00CF6425 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JuLiao;
+			productName = JuLiao;
+			productReference = 9E739FDE19C1730B00CF6425 /* JuLiao.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9E739FFD19C1730B00CF6425 /* JuLiaoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E73A01319C1730B00CF6425 /* Build configuration list for PBXNativeTarget "JuLiaoTests" */;
+			buildPhases = (
+				9E739FFA19C1730B00CF6425 /* Sources */,
+				9E739FFB19C1730B00CF6425 /* Frameworks */,
+				9E739FFC19C1730B00CF6425 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E73A00519C1730B00CF6425 /* PBXTargetDependency */,
+			);
+			name = JuLiaoTests;
+			productName = JuLiaoTests;
+			productReference = 9E739FFE19C1730B00CF6425 /* JuLiaoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E739FD619C1730B00CF6425 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JD;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = 0jiedian;
+				TargetAttributes = {
+					9E739FFD19C1730B00CF6425 = {
+						TestTargetID = 9E739FDD19C1730B00CF6425;
+					};
+				};
+			};
+			buildConfigurationList = 9E739FD919C1730B00CF6425 /* Build configuration list for PBXProject "JuLiao" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9E739FD519C1730B00CF6425;
+			productRefGroup = 9E739FDF19C1730B00CF6425 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E739FDD19C1730B00CF6425 /* JuLiao */,
+				9E739FFD19C1730B00CF6425 /* JuLiaoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E739FDC19C1730B00CF6425 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E739FEE19C1730B00CF6425 /* InfoPlist.strings in Resources */,
+				9E739FF919C1730B00CF6425 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E739FFC19C1730B00CF6425 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E73A00B19C1730B00CF6425 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E739FDA19C1730B00CF6425 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E739FF719C1730B00CF6425 /* JuLiao.xcdatamodeld in Sources */,
+				9E739FF419C1730B00CF6425 /* JDAppDelegate.m in Sources */,
+				9E739FF019C1730B00CF6425 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E739FFA19C1730B00CF6425 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E73A00D19C1730B00CF6425 /* JuLiaoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9E73A00519C1730B00CF6425 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E739FDD19C1730B00CF6425 /* JuLiao */;
+			targetProxy = 9E73A00419C1730B00CF6425 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9E739FEC19C1730B00CF6425 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E739FED19C1730B00CF6425 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9E73A00919C1730B00CF6425 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E73A00A19C1730B00CF6425 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9E73A00E19C1730B00CF6425 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9E73A00F19C1730B00CF6425 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E73A01119C1730B00CF6425 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JuLiao/JuLiao-Prefix.pch";
+				INFOPLIST_FILE = "JuLiao/JuLiao-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9E73A01219C1730B00CF6425 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JuLiao/JuLiao-Prefix.pch";
+				INFOPLIST_FILE = "JuLiao/JuLiao-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9E73A01419C1730B00CF6425 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JuLiao.app/JuLiao";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JuLiao/JuLiao-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JuLiaoTests/JuLiaoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9E73A01519C1730B00CF6425 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JuLiao.app/JuLiao";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JuLiao/JuLiao-Prefix.pch";
+				INFOPLIST_FILE = "JuLiaoTests/JuLiaoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E739FD919C1730B00CF6425 /* Build configuration list for PBXProject "JuLiao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E73A00E19C1730B00CF6425 /* Debug */,
+				9E73A00F19C1730B00CF6425 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E73A01019C1730B00CF6425 /* Build configuration list for PBXNativeTarget "JuLiao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E73A01119C1730B00CF6425 /* Debug */,
+				9E73A01219C1730B00CF6425 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9E73A01319C1730B00CF6425 /* Build configuration list for PBXNativeTarget "JuLiaoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E73A01419C1730B00CF6425 /* Debug */,
+				9E73A01519C1730B00CF6425 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9E739FF519C1730B00CF6425 /* JuLiao.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9E739FF619C1730B00CF6425 /* JuLiao.xcdatamodel */,
+			);
+			currentVersion = 9E739FF619C1730B00CF6425 /* JuLiao.xcdatamodel */;
+			path = JuLiao.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9E739FD619C1730B00CF6425 /* Project object */;
+}
