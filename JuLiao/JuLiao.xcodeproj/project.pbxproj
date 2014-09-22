@@ -448,6 +448,7 @@
 				9E73A01219C1730B00CF6425 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9E73A01319C1730B00CF6425 /* Build configuration list for PBXNativeTarget "JuLiaoTests" */ = {
 			isa = XCConfigurationList;
@@ -456,6 +457,7 @@
 				9E73A01519C1730B00CF6425 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
